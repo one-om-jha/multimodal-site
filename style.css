@@ -32,6 +32,13 @@ body {
     bottom: 5vh; */
 z-index: 1;
 }
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 h1 {
     color: white;
     font-family: 'Syncopate';
@@ -91,6 +98,10 @@ blockquote p {
     padding: 10px 20px;
     border-left: 2px solid var(--accent);
 }
+ul li p {
+    font-size: 14px;
+    padding-top: 10px; 
+}
 hr {
     max-width: 400px;
     margin: 0 auto;
@@ -109,6 +120,16 @@ img {
     margin-left: calc(-1 * ((100vw - 600px) / 2));
 
     padding-bottom: 20px;
+}
+figure {
+    max-width: 800px;
+    margin: 0 auto;
+}
+figure img {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 4px;
 }
 iframe {
     width: 100vw;
