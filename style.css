@@ -97,7 +97,7 @@ blockquote {
 blockquote p {
     padding: 10px 20px;
     border-left: 2px solid var(--accent);
-    font-style: italic;
+    font-style: oblique;
 }
 ul li p {
     font-size: 14px;
