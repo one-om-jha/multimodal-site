@@ -15,9 +15,14 @@ body {
     overflow-x: hidden;
 }
 .header {
-    height: 98vh;
+    height: 95vh;
     width: 100vw;
     background-color: black;
+}
+.header-text {
+    /** position: fixed;
+    bottom: 5vh; */
+    z-index: 1;
 }
 h1 {
     color: white;
@@ -32,12 +37,23 @@ h1 {
     -webkit-text-fill-color: white;
     -webkit-text-stroke: none;
 }
+.header img {
+    position: absolute;
+    width: 100vw;
+    right: -10vw;
+    bottom: -6vh;
+    z-index: 3;
+}
 
-
+.content {
+    background-color: white;
+    z-index: 2;
+    position: relative;
+}
 h2 {
     max-width: 700px;
-    margin: 64px auto 12px auto;
-    
+    margin: 80px auto 4px auto;
+
     font-family: 'Syncopate';
     text-transform: uppercase;
     font-size: 32px;
@@ -57,4 +73,18 @@ img {
     
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+.footer {
+    background-color: #e3e3e3;
+    padding: 20px;
+    margin-top: 64px;
+    text-align: right;
+}
+.footer-text {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #666;
 }
