@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Syncopate:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Syncopate:wght@700&display=swap');
 
 :root {
     --accent: #fb2ffe;
@@ -97,6 +97,7 @@ blockquote {
 blockquote p {
     padding: 10px 20px;
     border-left: 2px solid var(--accent);
+    font-style: italic;
 }
 ul li p {
     font-size: 14px;
