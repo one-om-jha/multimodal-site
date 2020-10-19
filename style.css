@@ -135,6 +135,14 @@ iframe {
     width: 100vw;
     padding-top: 20px;
 }
+.audio {
+    width: 100px;
+    height: 24px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 4;
+}
 .footer {
     background-color: #e3e3e3;
     padding: 20px;
